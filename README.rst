@@ -21,8 +21,15 @@ Features
 Limitations
 -----------
 
-* [TODO] Buliding document at once on `Heroku building stage`_.
-* [TODO] 3rd-party python packages / sphinx extensions are not supported.
+* Buliding document at once on `Heroku building stage`_.
+* 3rd-party python packages / sphinx extensions are not supported.
+
+ToDo
+-----
+
+* pull & build document every hour/day
+* pull & build document by WebHook
+* Install 3rd-party python packages / sphinx extensions
 
 
 How it works
