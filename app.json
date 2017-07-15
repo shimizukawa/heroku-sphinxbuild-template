@@ -15,5 +15,19 @@
       "description": "relative path from repository root to sphinx conf.py directory. root directory is . (dot)",
       "value": "doc"
     }
-  }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/shimizukawa/heroku-buildpack-sphinxbuild.git"
+    }
+  ]
 }
