@@ -5,13 +5,14 @@
   "keywords": ["sphinx", "documentation", "building", "hosting"],
   "env": {
     "BASIC_AUTH": {
-      "description": "username:password for basic auth to access page. keep empty if auth is not needed."
+      "description": "username:password for basic auth to access page. keep empty if auth is not needed.",
+      "required": false
     },
     "GIT_URL": {
       "description": "GIT URL to clone document repository. Use https://<token>@github.com/<user>/<reponame>.git schema to clone private repository."
     },
     "SOURCE_PATH": {
-      "description": "relative path from repository root to sphinx conf.py directory.",
+      "description": "relative path from repository root to sphinx conf.py directory. root directory is . (dot)",
       "value": "doc"
     }
   }
