@@ -2,6 +2,17 @@
   "name": "Sphinx heroku deploy",
   "description": "Build sphinx document on heroku and hosting its generated html files.",
   "repository": "https://github.com/shimizukawa/heroku-sphinxbuild-template/",
-  "logo": "",
-  "keywords": ["sphinx", "documentation", "building", "hosting"]
+  "keywords": ["sphinx", "documentation", "building", "hosting"],
+  "env": {
+    "BASIC_AUTH": {
+      "description": "username:password for basic auth to access page. keep empty if auth is not needed."
+    },
+    "GIT_URL": {
+      "description": "GIT URL to clone document repository. Use https://<token>@github.com/<user>/<reponame>.git schema to clone private repository."
+    },
+    "SOURCE_PATH": {
+      "description": "relative path from repository root to sphinx conf.py directory.",
+      "value": "doc"
+    }
+  }
 }
