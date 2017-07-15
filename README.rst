@@ -61,6 +61,11 @@ Frequently Asked Questions
     See also:
     https://docs.gitlab.com/ee/user/project/new_ci_build_permissions_model.html#before-gitlab-8-12
 
+  * On Bitbudket:
+    ``https://x-token-auth:<token>@bitbucket.org/<user>/<reponame>.git``.
+    See also:
+    https://confluence.atlassian.com/bitbucket/oauth-on-bitbucket-cloud-238027431.html#OAuthonBitbucketCloud-Cloningarepositorywithanaccesstoken
+
 
 * Can I protect generated pages with BASIC auth?
 
