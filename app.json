@@ -9,7 +9,7 @@
       "required": false
     },
     "GIT_URL": {
-      "description": "GIT URL to clone document repository. Use https://<token>@github.com/<user>/<reponame>.git schema to clone private repository."
+      "description": "GIT URL to clone document repository. To clone private repository, please use custom URL for GitHub 'https://<token>@github.com/<user>/<reponame>.git' or GitLab 'https://gitlab-ci-token:<token>@gitlab.com/<user>/<reponame>.git'."
     },
     "SOURCE_PATH": {
       "description": "relative path from repository root to sphinx conf.py directory. root directory is . (dot)",

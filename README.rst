@@ -40,11 +40,20 @@ This Heroku template will do:
 Frequently Asked Questions
 ==========================
 
-* Can I use Private github repository?
+* Can I use Private git repository?
 
-  * Yes. Please use ``https://<token>@github.com/<user>/<reponame>.git``
-    schema to pull source on github private repository.
-    See also: https://help.github.com/articles/git-automation-with-oauth-tokens/
+  * Yes. You can use custom URL to pull source from private repository.
+
+  * On GitHub:
+    ``https://<token>@github.com/<user>/<reponame>.git``.
+    See also:
+    https://help.github.com/articles/git-automation-with-oauth-tokens/
+
+  * On GitLab:
+    ``https://gitlab-ci-token:<token>@gitlab.com/<user>/<reponame>.git``.
+    See also:
+    https://docs.gitlab.com/ee/user/project/new_ci_build_permissions_model.html#before-gitlab-8-12
+
 
 * Can I protect generated pages with BASIC auth?
 
