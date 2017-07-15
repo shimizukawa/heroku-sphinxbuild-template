@@ -1,0 +1,7 @@
+{
+  "name": "Sphinx heroku deploy",
+  "description": "Build sphinx document on heroku and hosting its generated html files.",
+  "repository": "https://github.com/shimizukawa/heroku-sphinxbuild-template/",
+  "logo": "",
+  "keywords": ["sphinx", "documentation", "building", "hosting"]
+}
