@@ -12,3 +12,7 @@ First release
 * Serving HTML files that is generated with sphinx-build.
 * BASIC authentication for readers if you want.
 
+Release 2019.07.31
+==================
+
+* Install 3rd-party python packages if requirements.txt is exist at source directory.
