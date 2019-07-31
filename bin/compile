@@ -22,5 +22,10 @@ echo "-----> cloning sphinx document project"
 cd $BUILD_DIR
 git clone $GIT_URL repo
 
+echo "-----> installing 3rd-party python packages"
+if [ -r repo/requirements.txt ]; then
+  pip install -r repo/requirements.txt
+fi
+
 echo "-----> building document"
 sphinx-build -M html repo/$SOURCE_PATH build
